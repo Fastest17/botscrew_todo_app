@@ -1,0 +1,79 @@
+html, body {
+  height: 100%;
+  color: #d9d9d9;
+  background: #595959;
+}
+#root{
+	display: flex;
+	justify-content: center;
+}
+#main {
+	width: 600px;
+	margin: 0 auto;
+	text-align: center;
+}
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+ul li{
+	width: 100%;
+	border: 1px solid #000;
+	margin-top: 10px;
+	color: #000;
+	font-size: 18px;
+}
+ul li>div {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.done {
+  background-color: green;
+}
+.undone {
+  background-color: #fff3cc;
+}
+.icon {
+  margin-left: 10px;
+  cursor: pointer;
+  padding-right: 5px;
+  padding-left: 5px;
+  background: #fff;
+  border: 1px solid #000;
+}
+.close{
+	margin-right: 10px;
+	border: 1px solid #000;
+	background: #fff;
+	cursor: pointer;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: #000;
+}
+
+.form-inline {
+	height: 40px;
+}
+
+.form-inline .form-control {
+  width: 50%;
+  height: 100%;
+  padding: 0;
+  padding-left: 5px;	
+  border: 0;
+  background: #fff;
+}
+
+.form-inline .btn{
+	height: 100%;
+	margin-left: 5px;
+	background: #fff;
+	cursor: pointer;
+
+}
+
